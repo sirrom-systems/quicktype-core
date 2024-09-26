@@ -57,6 +57,9 @@ importers:
       '@types/is-url':
         specifier: ^1.2.32
         version: 1.2.32
+      '@types/lodash':
+        specifier: ^4.17.0
+        version: 4.17.9
       '@types/node':
         specifier: 18.19.31
         version: 18.19.31
@@ -92,6 +95,9 @@ packages:
 
   '@types/is-url@1.2.32':
     resolution: {integrity: sha512-46VLdbWI8Sc+hPexQ6NLNR2YpoDyDZIpASHkJQ2Yr+Kf9Giw6LdCTkwOdsnHKPQeh7xTjTmSnxbE8qpxYuCiHA==}
+
+  '@types/lodash@4.17.9':
+    resolution: {integrity: sha512-w9iWudx1XWOHW5lQRS9iKpK/XuRhnN+0T7HvdCCd802FYkT1AMTnxndJHGrNJwRoRHkslGr4S29tjm1cT7x/7w==}
 
   '@types/node@18.19.31':
     resolution: {integrity: sha512-ArgCD39YpyyrtFKIqMDvjz79jto5fcI/SVUs2HwB+f0dAzq68yqOdyaSivLiLugSziTpNXLQrVb7RZFmdZzbhA==}
@@ -233,6 +239,8 @@ snapshots:
   '@types/browser-or-node@1.3.2': {}
 
   '@types/is-url@1.2.32': {}
+
+  '@types/lodash@4.17.9': {}
 
   '@types/node@18.19.31':
     dependencies:
