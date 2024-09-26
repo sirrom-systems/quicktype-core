@@ -41,6 +41,11 @@
         "@types/lodash": "^4.17.0",
         "typescript": "4.9.5"
     },
+    "pnpm": {
+        "publishConfig": {
+            "directory": "dist"
+        }
+    },
     "files": [
         "dist"
     ],
